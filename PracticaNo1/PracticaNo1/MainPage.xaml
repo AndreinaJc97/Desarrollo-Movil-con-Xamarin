@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PracticaNo1.MainPage">
+
+    <StackLayout Background="DarkGray">
+        <Frame BackgroundColor="Black" Padding="24" CornerRadius="0">
+            <Label Text="Hello my name is Andreina!" HorizontalTextAlignment="Center" TextColor="SkyBlue" FontSize="36" FontFamily="Lobster"/>
+        </Frame>
+        <Label Text="Primera Leccion" FontSize="Title" Padding="30,10,30,10" TextColor="Aqua"/>
+        <Label Text="Esta primera practica consiste en cambiar el layout de la applicacion" FontSize="16" Padding="30,0,30,0" TextColor="Aqua"/>
+        <Label FontSize="16" Padding="30,24,30,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans> 
+                        <Span Text="Repositorio: " TextColor="Aqua"/>
+                        <Span Text="https://github.com/AndreinaJc97/Desarrollo-Movil-con-Xamarin" FontAttributes="Italic" TextColor="Aqua"/>
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+    </StackLayout>
+</ContentPage>
